@@ -6,12 +6,12 @@ import BreakingNews from "./BreakingNews";
 
  const Home = () => {
     return (
-        <div>
+        <div className="">
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
 
-            <div className="grid grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 my-10">
                 <div className="border border-yellow-400">
                     <LeftNavbar></LeftNavbar>
                 </div>
